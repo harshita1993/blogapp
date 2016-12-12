@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'pages/home'
+
+  get 'pages/directions'
+
+  get 'pages/about'
+
   resources :articles do
   resources :comments  
 end
